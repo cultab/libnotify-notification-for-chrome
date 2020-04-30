@@ -15,7 +15,7 @@ else
     if [ -x "$HOME/.config/google-chrome-beta" ]; then
       TARGET_DIR="$HOME/.config/google-chrome-beta/NativeMessagingHosts"
     else
-      TARGET_DIR="$HOME/.config/google-chrome/NativeMessagingHosts"
+      TARGET_DIR="$HOME/.config/chrome/NativeMessagingHosts" # replace chrome with your browser name eg: vivaldi
     fi
   fi
 fi
