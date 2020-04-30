@@ -6,19 +6,7 @@
 set -e
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
-if [ $(uname -s) == 'Darwin' ]; then
-  echo This is not for MAC
-else
-  if [ "$(whoami)" == "root" ]; then
-    TARGET_DIR="/etc/opt/chrome/native-messaging-hosts"
-  else
-    if [ -x "$HOME/.config/google-chrome-beta" ]; then
-      TARGET_DIR="$HOME/.config/google-chrome-beta/NativeMessagingHosts"
-    else
-      TARGET_DIR="$HOME/.config/chrome/NativeMessagingHosts" # replace chrome with your browser name eg: vivaldi
-    fi
-  fi
-fi
+TARGET_DIR="$HOME/.config/chrome/NativeMessagingHosts" # replace chrome with your browser name eg: vivaldi
 
 HOST_NAME=com.initiated.chrome_libnotify_notifications
 
