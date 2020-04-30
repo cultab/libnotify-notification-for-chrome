@@ -114,6 +114,6 @@ Some files in this repo have licenses attached (like install.sh), some have not 
 # Special Thanks to:
 Nick Mossie for the [chrome extention](https://chrome.google.com/webstore/detail/libnotify-notifications-i/epckjefillidgmfmclhcbaembhpdeijg)
 
-saiarcot895 (will msg before actually tagging with @tag), without [his answer on askubuntu](https://askubuntu.com/questions/465727/activate-chrome-native-notifications) this repo would not exist.
+Saikrishna Arcot (@saiarcot895) for [his answer on askubuntu](https://askubuntu.com/questions/465727/activate-chrome-native-notifications) without which this repo would not exist.
 
 
