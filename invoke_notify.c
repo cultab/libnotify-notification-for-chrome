@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <json/json.h>
+#include <json-c/json.h>
 #include <libnotify/notify.h>
 #include <curl/curl.h>
 
