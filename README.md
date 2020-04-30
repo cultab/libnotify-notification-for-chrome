@@ -107,5 +107,11 @@ function getBaseURL() {
 
 You can use [this site](https://www.bennish.net/web-notifications.html) to test if it worked.
 
+# License
+
+Some files in this repo have licenses attached (like install.sh), some have not but must be assumed to be some version of the GPL (like invoke_notify.c cause of it's dependency to libnotify).
+
+# Special Thanks to:
+saiarcot895 (will msg before actually tagging with @tag), without [his answer on askubuntu](https://askubuntu.com/questions/465727/activate-chrome-native-notifications) this repo would not exist.
 
 
