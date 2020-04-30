@@ -2,37 +2,29 @@
 
 Dependencies
 ------------
-Install these and their devel/dev packages.
+
+Install these and their devel/dev packages using your package manager.
 
 - libcurl
 - json-c
 - libnotify (obviously)
 
+Install this [chromium extension](https://chrome.google.com/webstore/detail/libnotify-notifications-i/epckjefillidgmfmclhcbaembhpdeijg).
 
 Install
 -------
 
-Edit install.sh to install to the correct place (see line 18)
-change the 'chrome in':
+Edit install.sh to target the correct directory (see line 18)
+change the 'chrome': `TARGET_DIR="$HOME/.config/chrome/NativeMessagingHosts"`
+to whatever your browser is called the directory probably already exists. Use common sense :).
+e.g: for vivaldi-stable it's: `TARGET_DIR="$HOME/.config/vivaldi/NativeMessagingHosts"`
 
-```
-TARGET_DIR="$HOME/.config/chrome/NativeMessagingHosts"
-```
-
-To whatever your browser is called, use common sense, the dir probably already exists.
-e.g: for vivaldi-stable it's 
-
-```
-TARGET_DIR="$HOME/.config/vivaldi/NativeMessagingHosts"
-```
-
-
-```bash
+```shell
 # make
 $ ./install.sh
 ```
 
-Then as per [this answer on askubuntu](https://askubuntu.com/questions/465727/activate-chrome-native-notifications) navigate to `$HOME/.config/chrome/NativeMessagingHosts` (or wherever you edited install.sh to put the file at) and add the extension id to the .json file. It should look like this after the edit:
+Then as per [this answer on askubuntu](https://askubuntu.com/questions/465727/activate-chrome-native-notifications) navigate to `$HOME/.config/chrome/NativeMessagingHosts` (or to where you set the TARGET_DIR to in install.sh) and add the extension id to the .json file. It should look like this after the edit:
 
 ```json
 {
