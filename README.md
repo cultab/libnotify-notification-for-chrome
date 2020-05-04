@@ -1,4 +1,5 @@
-
+# DOES NOT WORK AS EXPECTED UNFORTUNATLY
+Some notifications just never show up, keeping the repo incase something changes.
 
 Dependencies
 ------------
